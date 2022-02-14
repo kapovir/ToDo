@@ -4,6 +4,7 @@ html {
 
 .div-inline {
     display: inline-block;
+    vertical-align: middle;
 }
 
 .position-width20 {
