@@ -1,0 +1,7 @@
+html {
+    padding: 5px;
+}
+
+.dispInline div {
+    display: inline-block;
+}
