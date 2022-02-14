@@ -2,6 +2,6 @@ html {
     padding: 5px;
 }
 
-.dispInline div {
+.div-inline div {
     display: inline-block;
 }
