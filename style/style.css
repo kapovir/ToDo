@@ -2,6 +2,35 @@ html {
     padding: 5px;
 }
 
-.div-inline div {
+.div-inline {
     display: inline-block;
+}
+
+.position-width20 {
+    position: static;
+    width: 20%;
+}
+
+.li-color-position {
+    position: inherit;
+    margin: 5px;
+    background-color: #ececec;
+}
+
+.s-text {
+    text-decoration: line-through;
+}
+
+.i-text {
+    font-style: italic;
+}
+
+.div-list {
+    width: 70%;
+    text-align: left;
+}
+
+.div-status {
+    width: 20%;
+    text-align: right;
 }
