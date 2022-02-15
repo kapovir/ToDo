@@ -4,58 +4,129 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!-- Material icon sheet -->
     </head>
     <body>
-        <H3 class="i-text"> <!-- Header of list with CSS italic -->
-            Красивейший H3 списка
-        </H3>
+        <div>   <!-- created with list -->
+            <H3 class="i-text"> <!-- Header of list with CSS italic -->
+                Красивейший H3 списка
+            </H3>
 
-        <ul class="position-width20"> <!-- Main list. Special class created exclusively for OL-tag and wich will be used everywere -->
-            <li class="li-color-position">
-                <div>
-                    <div class="div-inline div-list">
-                        Написать рандомный текст
+            <ul class="position-width20"> <!-- Main list. Special class created exclusively for OL-tag and wich will be used everywere -->
+                <li class="li-color-position">
+                    <div>
+                        <div class="div-inline div-list">
+                            Написать рандомный текст
+                        </div>
+                        -
+                        <div class="div-inline div-status">
+                            <span class="material-icons">check_circle</span> <!-- Just checked item in full box-->
+                        </div>
                     </div>
-                    -
-                    <div class="div-inline div-status">
-                        <span class="material-icons">check_circle</span> <!-- Just checked item in full box-->
+                </li>
+
+                <li class="li-color-position">
+                    <div>
+                        <div class="div-inline div-list">
+                            Поставить фигню, сделано
+                        </div>
+                        -
+                        <div class="div-inline div-status">
+                            <span class="material-icons">done</span> <!-- Just checked item -->
+                        </div>
+                    </div>
+                </li>
+
+                <li class="li-color-position">
+                    <div>
+                        <div class="div-inline div-list">
+                            <s>Зачеркнутый текст тегом</s> <!-- strike text with tag -->
+                        </div>
+                        -
+                        <div class="div-inline div-status">
+                            <span class="material-icons">check_circle_outline</span> <!-- Just checked item in box -->
+                        </div>
+                    </div>
+                </li>
+
+                <li class="li-color-position">
+                    <div>
+                        <div class="div-inline s-text div-list "> <!-- strike text with CSS -->
+                            Зачеркнутый текст CSS
+                        </div>
+                        -
+                        <div class="div-inline div-status">
+                            <span class="material-icons">check_box</span> <!-- Just checked item in box -->
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="margin-left40"> <!-- div method -->
+            <H3 class="i-text"> <!-- Header of list with CSS italic -->
+                Тоже самое, только все ручками
+            </H3>
+
+            <div>
+                <div class="background-e5 width230px margin-b2px">
+                    <div class="div-inline width10 align-center">
+                        •
+                    </div>
+                    <div class="div-inline width60 align-left">
+                        Написать текст
+                    </div>
+                    <div class="div-inline width10 align-center">
+                        <span class="material-icons">remove</span>
+                    </div>
+                    <div class="div-inline width10 align-center">
+                        <span class="material-icons">check_circle_outline</span>
                     </div>
                 </div>
-            </li>
 
-            <li class="li-color-position">
-                <div>
-                    <div class="div-inline div-list">
-                        Поставить фигню, сделано
+                <div class="background-e5 width230px margin-b2px">
+                    <div class="div-inline width10 align-center">
+                        •
                     </div>
-                    -
-                    <div class="div-inline div-status">
-                        <span class="material-icons">done</span> <!-- Just checked item -->
+                    <div class="div-inline width60 align-left">
+                        Отчекать текст
+                    </div>
+                    <div class="div-inline width10 align-center">
+                        <span class="material-icons">remove</span>
+                    </div>
+                    <div class="div-inline width10 align-center">
+                        <span class="material-icons">check_circle_outline</span>
                     </div>
                 </div>
-            </li>
 
-            <li class="li-color-position">
-                <div>
-                    <div class="div-inline div-list">
-                        <s>Зачеркнутый текст тегом</s> <!-- strike text with tag -->
+                <div class="background-e5 width230px margin-b2px">
+                    <div class="div-inline width10 align-center">
+                        •
                     </div>
-                    -
-                    <div class="div-inline div-status">
-                        <span class="material-icons">check_circle_outline</span> <!-- Just checked item in box -->
+                    <div class="div-inline width60 align-left">
+                        Не забыть поспать
+                    </div>
+                    <div class="div-inline width10 align-center">
+                        <span class="material-icons">remove</span>
+                    </div>
+                    <div class="div-inline width10 align-center">
+                        <span class="material-icons">check_circle_outline</span>
                     </div>
                 </div>
-            </li>
 
-            <li class="li-color-position">
-                <div>
-                    <div class="div-inline s-text div-list "> <!-- strike text with CSS -->
-                        Зачеркнутый текст CSS
+                <div class="width230px">
+                    <div class="div-inline width10 align-center">
+
                     </div>
-                    -
-                    <div class="div-inline div-status">
-                        <span class="material-icons">check_circle_outline</span> <!-- Just checked item in box -->
+                    <div class="div-inline width60">
+
+                    </div>
+                    <div class="div-inline width10 align-center">
+
+                    </div>
+                    <div class="div-inline width10 align-center">
+                        <span class="material-icons">add_circle_outline</span>
                     </div>
                 </div>
-            </li>
-        </ul>
+            </div>
+        </div>
+
     </body>
 </html>
